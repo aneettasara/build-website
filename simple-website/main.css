@@ -1,0 +1,67 @@
+:root {
+    --blue: #040116;
+    --red: #ca0000;
+    --white: #ffffff;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: Lucida;
+    text-align: center;
+    font-weight: bold;
+}
+  
+body {
+      background: var(--bg);
+}
+
+h1 {
+    text-decoration-line: underline;
+    text-decoration-color: var(--red);
+}
+ul {
+    font-family: Lucida;
+}
+
+li {
+    list-style: circle;
+    list-style-position: inside;
+  }  
+
+.list {
+    list-style: square;
+    list-style-position: inside;    
+    text-align:justify;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--blue);
+    --btnBg: var(--blue);
+    --btnFontColor: var(--white);   
+}
+  
+.dark-theme {
+    --bg: var(--blue);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--blue);    
+}
+
+.btn {
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { 
+    outline-style: none; 
+}
