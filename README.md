@@ -1,3 +1,3 @@
 # build-website
 ### Web Development
-Build a simple website using HTML, CSS, and JavaScript
+Build websites using HTML, CSS, and JavaScript
